@@ -10,11 +10,9 @@ try:
         if len(current) > 0:
             current = current["window_properties"]
             if len(current) > 0:
-                current = current["title"]
-                current = current.split()
-                current = current[0]
+                current = current['class']
+
 except:
     current = "Desktop"
 
-if current == "tmux":
-    print "PANE"
+print current

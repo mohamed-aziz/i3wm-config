@@ -5,5 +5,5 @@ if [ $mute == "[on]" ]
 then
     echo $vol
 else
-    echo "($vol)"
+    echo "($vol"
 fi
